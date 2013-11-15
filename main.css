@@ -1,0 +1,205 @@
+@font-face
+{
+    font-family: trocadero;
+    src: url("fonts/trocadero.eot");
+    src: url("fonts/trocadero.eot?#iefix") format("embedded-opentype"),
+         url("fonts/trocadero.woff") format("woff"),
+         url("fonts/trocadero.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: playbill;
+    src: url("fonts/playbill.woff") format("woff"),
+         url("fonts/playbill.ttf") format("truetype");
+
+}
+
+@font-face
+{
+    font-family: vanilla-whale;
+    src: url("fonts/vanilla.eot");
+    src: url("fonts/vanilla.eot?#iefix") format("embedded-opentype"),
+         url("fonts/vanilla.woff") format("woff"),
+         url("fonts/vanilla.ttf") format("truetype");
+}
+
+body
+{
+    background-color: #FFFFFF;
+    background-image: url("http://i39.tinypic.com/24qlgnc.jpg");
+    background-repeat: repeat;
+}
+
+.eventbody
+{
+    margin-left: auto;
+    margin-right: auto;    
+    width: 8.5in;
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
+    border: groove 4px #FDFDFD;
+    padding: 0;    
+}
+
+.eventheader
+{
+    background: linear-gradient(#029B72, #9BFDE3);
+    background: -moz-linear-gradient(top, #029B72, #9BFDE3);
+    background: -ms-linear-gradient(#029B72, #9BFDE3);
+    background: -o-linear-gradient(#029B72, #9BFDE3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#029B72', endColorstr='#9BFDE3');
+    zoom: 1;
+
+}
+
+.eventblock
+{
+    padding-top: 10px;
+    background-image: url("images/banner_back.png"); 
+    background-repeat: repeat-x;
+}
+
+.logoblock
+{
+    background-image: url("http://i42.tinypic.com/2h80qr9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 252px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.eventtext
+{
+    font-family: trocadero;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    display: block;
+    width: 100%;
+}
+
+.eventboy
+{
+    float: left;
+    width: 200px;
+    height: 180px;
+    margin-top: -90px;
+    margin-left: 10px;
+    background-image: url('images/boy.png') ;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.eventgirl
+{
+    float: right;
+    width: 200px;
+    height: 180px;
+    margin-top: -90px;
+    margin-right: 10px;
+    background-image: url('images/girl.png') ;
+    background-position: top right;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.eventdate
+{
+    font-family: playbill, "Impact";
+    font-size: 34pt;
+    text-align: center;
+    font-weight: bold;
+    color: #AE2442;
+    display: inline-block;
+    text-shadow: 5px 5px 5px silver;
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 200px;
+    padding-top: 40px;
+   -webkit-text-fill-color: #AE244; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: #003E5E;    
+}
+
+.eventlocation
+{
+    font-family: playbill, "Impact";
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bold;
+    color: #AE2442;
+    display: inline-block;
+    text-shadow: 5px 5px 5px silver;
+    text-align: center;
+    width: 40%;
+    height: 200px;    
+    padding-top: 40px;    
+    float: right;
+   -webkit-text-fill-color: #AE244; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: #003E5E;    
+}
+
+.infoblock
+{
+    background-color: #0093BE;
+    height: 100%;
+}
+
+.activityblock
+{
+    margin-left: 20px;
+    background-image: url('images/games.jpg');
+    background-position: center left;
+    background-repeat: no-repeat;    
+    height: 200px;
+    display: block;
+    font-family: vanilla-whale;
+    text-align: center;
+    text-shadow: 5px 5px 5px silver;    
+    font-size: 46pt;
+    color: #003E5E;
+    padding-left: 200px;
+    margin-top: 20px;
+}
+
+.activitytext
+{
+    background-image: url('images/brush.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    min-width: 520px;
+}
+
+.titleblock
+{
+    font-family: vanilla-whale;
+    text-align: center;
+    text-shadow: 5px 5px 5px silver;    
+    font-size: 56pt;
+    color: #003E5E;
+}
+
+.montessorilink
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.directions ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+
+}
