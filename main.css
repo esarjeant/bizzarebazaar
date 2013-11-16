@@ -29,6 +29,8 @@ body
     background-color: #FFFFFF;
     background-image: url("http://i39.tinypic.com/24qlgnc.jpg");
     background-repeat: repeat;
+    font-family: sans-serif;
+    font-size: 10pt;
 }
 
 .eventbody
@@ -155,27 +157,39 @@ body
 
 .activityblock
 {
-    margin-left: 20px;
-    background-image: url('images/games.jpg');
+    margin: 10px;
+    padding: 20px;
+    background-image: url('images/background.png');
     background-position: center left;
-    background-repeat: no-repeat;    
+    background-repeat: repeat-x;    
     height: 200px;
     display: block;
-    font-family: vanilla-whale;
-    text-align: center;
-    text-shadow: 5px 5px 5px silver;    
-    font-size: 46pt;
+    text-align: left;
     color: #003E5E;
-    padding-left: 200px;
-    margin-top: 20px;
+    border: 1px;    
+    border-radius: 15px;
 }
 
 .activitytext
 {
-    background-image: url('images/brush.png');
-    background-position: center left;
-    background-repeat: no-repeat;
-    min-width: 520px;
+    font-family: vanilla-whale;
+    text-shadow: 5px 5px 5px silver;    
+    font-size: 36pt;
+}
+
+.activitydesc
+{
+    font-family: Arial, Helvetics;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #090909;
+    margin-top: 20px;
+}
+
+.activityimage
+{
+    margin-right: 10px;
+    border: solid 2px gray;
 }
 
 .titleblock
