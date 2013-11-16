@@ -42,7 +42,7 @@
 
 	<body>
 	<center>
-	    <div class="eventbody">
+	    <div class="eventbody" itemscope itemtype="http://schema.org/Event">
 		<div class="eventheader">
 			<div class="eventblock">
 
@@ -52,16 +52,17 @@
 
 						<div class="eventdate">
 							<div style="padding-right: 100px;">
+      <meta itemprop="startDate" content="2013-12-07T10:00">
       Saturday<br/>
       December 7th<br/>
       <span style="font-size: 18pt;">10AM to 3PM</span><br/>
 							</div>
 						</div>
 
-						<div class="eventlocation">
-							<div style="padding-left: 100px;">
-      2659 Professional Circle<br/>
-      Naples, FL
+						<div class="eventlocation" itemprop="location" itemscope itemtype="http://schema.org/Place">
+							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="padding-left: 100px;">
+      <span itemprop="streetAddress">2659 Professional Circle</span><br/>
+      <span itemprop="addressLocality">Naples</span>, <span itemprop="addressRegion">FL</span>
       <br/>
       <br/>
 <a href="https://twitter.com/intent/tweet?button_hashtag=NaplesBizarreBazaar" target="_blank" align="left"><img border="0" alt="Twitter" src="images/twitter.png"></a>
@@ -76,7 +77,7 @@
 
 						<ul>
 							<li class="active" style="margin-left: 220px;">
-								<a href="./">
+								<a itemprop="url" href="./">
 									<span>Home</span>
 								</a>
 							</li>
@@ -142,26 +143,8 @@
 			
 		</div>
 		
-<div itemscope itemtype="http://schema.org/Event">
-  <a itemprop="url" href="http://naplesbazaar.com">
-  Naples Montessori Academy's 
-  <span itemprop="name">Community Festival - Bizarre Bazaar</span>
-  </a>
-  <br/>
-
-  <meta itemprop="startDate" content="2013-12-07T10:00">
-    Saturday, December 7th 2013 at 10:00 AM
-
-  <div itemprop="location" itemscope itemtype="http://schema.org/Place">
-    <a itemprop="url" href="http://www.naplesmontessori.org">
-    Naples Montessori Academy
-    </a>
-    <div itemprop="address" itemscope itemtype="http://www.naplesmontessori.org/about-man/mapdirections/">
-      <span itemprop="addressLocality">Naples</span>,
-      <span itemprop="addressRegion">FL</span>
-    </div>
-  </div>
-</div>
+<meta itemprop="name" content="Montessori Academy's Community Festival - Bizarre Bazaar"></center>
+<meta itemprop="description" content="Unique blend of local crafstamen and artists, activities, food and fun.">
 
 		<div class="montessorilink">
 			<center>

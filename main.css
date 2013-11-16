@@ -27,7 +27,7 @@
 body
 {
     background-color: #FFFFFF;
-    background-image: url("http://i39.tinypic.com/24qlgnc.jpg");
+    background-image: url("images/treebark.jpg");
     background-repeat: repeat;
     font-family: sans-serif;
     font-size: 10pt;
@@ -64,7 +64,7 @@ body
 
 .logoblock
 {
-    background-image: url("http://i42.tinypic.com/2h80qr9.png");
+    background-image: url("images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 252px;
