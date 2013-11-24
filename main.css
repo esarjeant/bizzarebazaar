@@ -24,6 +24,17 @@
          url("fonts/vanilla.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'braddon';
+    src: url('braddon-webfont.eot');
+    src: url('braddon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('braddon-webfont.woff') format('woff'),
+         url('braddon-webfont.ttf') format('truetype'),
+         url('braddon-webfont.svg#braddonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     background-color: #FFFFFF;
@@ -53,6 +64,19 @@ body
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#029B72', endColorstr='#9BFDE3');
     zoom: 1;
 
+}
+
+.bizarreblock
+{
+    width: 420px; 
+    font-family: braddon;
+    font-size: 24pt; 
+    color: chocolate;
+    margin-top: 40px; 
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 1px;    
+    border-radius: 10px;    
 }
 
 .eventblock
@@ -167,7 +191,7 @@ body
     text-align: left;
     color: #003E5E;
     border: 1px;    
-    border-radius: 15px;
+    border-radius: 15px;    
 }
 
 .activitytext
@@ -179,8 +203,8 @@ body
 
 .activitydesc
 {
-    font-family: Arial, Helvetics;
-    font-size: 14pt;
+    font-family: braddon;
+    font-size: 18pt;
     font-weight: bold;
     color: #090909;
     margin-top: 20px;
@@ -216,4 +240,26 @@ body
     list-style-type: square;
     list-style-position: inside;
 
+}
+
+.marquee
+{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 5px;
+  font-family: arial, helvetica;
+  font-size: 12pt;
+  background-color: aquamarine;
+}
+
+.marqueeblock
+{
+   margin-right: 20px;
+   font-weight: bold;
+   color: #003E5E;
 }

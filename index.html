@@ -13,7 +13,29 @@
 	
 		<link rel="stylesheet" type="text/css" href="main.css"/>
 		<link rel="stylesheet" type="text/css" href="menu.css"/>
+		
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/2.0.3/jquery-ui.min.js"></script>
+<script src="jquery.marquee.min.js"></script>
 	
+<script type="text/javascript">
+$(function()
+{
+	$('.marquee').marquee({
+	    //speed in milliseconds of the marquee
+	    speed: 35000,
+	    //gap in pixels between the tickers
+	    gap: 50,
+	    //time in milliseconds before the marquee will start animating
+	    delayBeforeStart: 2000,
+	    //'left' or 'right'
+	    direction: 'left',
+	    //true or false - should the marquee be duplicated to show an effect of continues flow
+	    duplicated: true
+	});
+});
+</script>
+		
 		<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -104,8 +126,45 @@
 
 				</div>
 			</div>
+			
+		<div class="bizarreblock">
+Spectacular Holiday Shopping<br/>
+Exquisite Cuisine<br/>
+Children's Games &amp; Prizes<br/>
+Raffles Every Hour<br/>
+<font size="-1">(must be present to win)</font>
+		</div>
 		
-		<div style="margin-top: 80px; display: block; height: 840px;">
+<div class="marquee">
+  <span class="marqueeblock">A&amp;D Shredding</span>
+  <span class="marqueeblock">Anna's Seafood</span>
+  <span class="marqueeblock">Beacon Bowl (mini bowling lanes!)</span>
+  <span class="marqueeblock">Bizarre Hair by Coastal Hair Design</span>
+  <span class="marqueeblock">Brooke's Legacy Animal Rescue</span>
+  <span class="marqueeblock">Facepainting with ME Anderson</span>
+  <span class="marqueeblock">Big Papa's BBQ</span>
+  <span class="marqueeblock">Comida Autentica de Mexico</span>
+  <span class="marqueeblock">Del &amp; Mel Carribean Restaurant</span>
+  <span class="marqueeblock">Fresh Water Horchata</span>
+  <span class="marqueeblock">L'Appetito Pasta</span>
+  <span class="marqueeblock">Troop #400's Sweet Shoppe</span>
+  <span class="marqueeblock">Uncle Dan's Old Fashioned Kettle Corn</span>
+  <span class="marqueeblock">Black Duck Studios</span>
+  <span class="marqueeblock">C.Blau Handbags</span>
+  <span class="marqueeblock">Cahill Crafts</span>
+  <span class="marqueeblock">Dusty Holmes Pottery</span>
+  <span class="marqueeblock">Eco-Baby</span>
+  <span class="marqueeblock">One of a Kind Pottery</span>
+  <span class="marqueeblock">Origami Owl Custom</span>
+  <span class="marqueeblock">Premier Designs Jewelry</span>
+  <span class="marqueeblock">Royal Palm Soap</span>
+  <span class="marqueeblock">The Paisley Ribbon</span>
+  <span class="marqueeblock">Vertical Bling</span>
+  <span class="marqueeblock">The White Gardenia</span>
+  <span class="marqueeblock">World Treasures</span>
+</div>
+
+		<div style="display: block; height: 840px;">
 			<div class="activityblock">
 				<div style="float: left;">
 				    <img class="activityimage" src="images/games.jpg"/>
