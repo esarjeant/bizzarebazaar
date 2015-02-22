@@ -47,12 +47,12 @@ body
 .eventbody
 {
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
     width: 8.5in;
     margin-top: 0.5in;
     margin-bottom: 0.5in;
     border: groove 4px #FDFDFD;
-    padding: 0;    
+    padding: 0;
 }
 
 .eventheader
@@ -68,21 +68,21 @@ body
 
 .bizarreblock
 {
-    width: 420px; 
+    width: 420px;
     font-family: braddon;
-    font-size: 24pt; 
+    font-size: 24pt;
     color: chocolate;
-    margin-top: 40px; 
+    margin-top: 40px;
     padding: 20px;
     background-color: antiquewhite;
-    border: 1px;    
-    border-radius: 10px;    
+    border: 1px;
+    border-radius: 10px;
 }
 
 .eventblock
 {
     padding-top: 10px;
-    background-image: url("images/banner_back.png"); 
+    background-image: url("images/banner_back.png");
     background-repeat: repeat-x;
 }
 
@@ -94,7 +94,7 @@ body
     height: 252px;
     width: 100%;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
 
 .eventtext
@@ -151,7 +151,7 @@ body
     padding-top: 40px;
    -webkit-text-fill-color: #AE244; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: #003E5E;    
+   -webkit-text-stroke-color: #003E5E;
 }
 
 .eventlocation
@@ -165,12 +165,12 @@ body
     text-shadow: 5px 5px 5px silver;
     text-align: center;
     width: 40%;
-    height: 200px;    
-    padding-top: 40px;    
+    height: 200px;
+    padding-top: 40px;
     float: right;
    -webkit-text-fill-color: #AE244; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: #003E5E;    
+   -webkit-text-stroke-color: #003E5E;
 }
 
 .infoblock
@@ -185,19 +185,19 @@ body
     padding: 20px;
     background-image: url('images/background.png');
     background-position: center left;
-    background-repeat: repeat-x;    
+    background-repeat: repeat-x;
     height: 200px;
     display: block;
     text-align: left;
     color: #003E5E;
-    border: 1px;    
-    border-radius: 15px;    
+    border: 1px;
+    border-radius: 15px;
 }
 
 .activitytext
 {
     font-family: vanilla-whale;
-    text-shadow: 5px 5px 5px silver;    
+    text-shadow: 5px 5px 5px silver;
     font-size: 36pt;
 }
 
@@ -220,7 +220,7 @@ body
 {
     font-family: vanilla-whale;
     text-align: center;
-    text-shadow: 5px 5px 5px silver;    
+    text-shadow: 5px 5px 5px silver;
     font-size: 56pt;
     color: #003E5E;
 }
@@ -229,7 +229,7 @@ body
 {
     display: block;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -247,14 +247,11 @@ body
   width: 100%;
   display: block;
   overflow: hidden;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
   font-family: arial, helvetica;
   font-size: 12pt;
-  background-color: aquamarine;
 }
 
 .marqueeblock
